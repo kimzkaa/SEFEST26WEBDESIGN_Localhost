@@ -213,6 +213,9 @@
   .mt-3 {
     margin-top: calc(var(--spacing) * 3);
   }
+  .mt-5 {
+    margin-top: calc(var(--spacing) * 5);
+  }
   .mt-6 {
     margin-top: calc(var(--spacing) * 6);
   }
@@ -246,14 +249,23 @@
   .h-1 {
     height: calc(var(--spacing) * 1);
   }
+  .h-3 {
+    height: calc(var(--spacing) * 3);
+  }
   .h-11 {
     height: calc(var(--spacing) * 11);
   }
   .h-11\.25 {
     height: calc(var(--spacing) * 11.25);
   }
+  .h-13 {
+    height: calc(var(--spacing) * 13);
+  }
   .h-25 {
     height: calc(var(--spacing) * 25);
+  }
+  .h-34 {
+    height: calc(var(--spacing) * 34);
   }
   .h-50 {
     height: calc(var(--spacing) * 50);
@@ -281,6 +293,9 @@
   }
   .h-\[45px\] {
     height: 45px;
+  }
+  .h-\[136px\] {
+    height: 136px;
   }
   .h-\[729px\] {
     height: 729px;
@@ -327,6 +342,12 @@
   .w-\[1fr\] {
     width: 1fr;
   }
+  .w-\[2\.70px\] {
+    width: 2.70px;
+  }
+  .w-\[28\.70px\] {
+    width: 28.70px;
+  }
   .w-\[147px\] {
     width: 147px;
   }
@@ -341,6 +362,12 @@
   }
   .w-\[206\.px\] {
     width: 206.px;
+  }
+  .w-\[250\.70px\] {
+    width: 250.70px;
+  }
+  .w-\[280\.70px\] {
+    width: 280.70px;
   }
   .w-\[300\.70px\] {
     width: 300.70px;
@@ -368,6 +395,12 @@
   }
   .w-\[1130px\] {
     width: 1130px;
+  }
+  .w-auto {
+    width: auto;
+  }
+  .w-full {
+    width: 100%;
   }
   .w-screen {
     width: 100vw;
@@ -410,6 +443,9 @@
   }
   .gap-1 {
     gap: calc(var(--spacing) * 1);
+  }
+  .gap-1\.5 {
+    gap: calc(var(--spacing) * 1.5);
   }
   .gap-2\.5 {
     gap: calc(var(--spacing) * 2.5);
@@ -479,6 +515,9 @@
   }
   .gap-\[449\.\] {
     gap: 449.;
+  }
+  .self-center {
+    align-self: center;
   }
   .self-end {
     align-self: flex-end;
@@ -557,6 +596,9 @@
   .text-\[2px\] {
     font-size: 2px;
   }
+  .text-\[12px\] {
+    font-size: 12px;
+  }
   .text-\[14px\] {
     font-size: 14px;
   }
@@ -581,8 +623,14 @@
     --tw-font-weight: var(--font-weight-semibold);
     font-weight: var(--font-weight-semibold);
   }
+  .text-\[12\] {
+    color: 12;
+  }
   .underline {
     text-decoration-line: underline;
+  }
+  .opacity-70 {
+    opacity: 70%;
   }
   .outline {
     outline-style: var(--tw-outline-style);
