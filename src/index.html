@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
+  <!--Klo mau make tailwind, nyalain dulu tailwindnya di terminal make npm run dev-->
   <div></div>
     <nav class="w-screen h-25 flex justify-around">
       <div class="logo flex justify-center items-center gap-5">
@@ -22,9 +23,167 @@
       </div>
     </nav>
 
-    <section class="hero">
+  <section class="flex justify-center pb-20 z-0">
+    <div class="flex flex-col justify-center">
+      <h1 class="txt1 text-[90px] font-medium">Lorem Ipsum</h1>
+      <h1 class="txt2 text-9xl font-bold">Lorem Ipsum</h1>
+      <h1 class="txt3 text-[90px] font-medium text-right z-3">Lorem Ipsum</h1>
 
-    </section>
+      <div class="model3 flex justify-center">
+        <model-viewer
+          class="model3d absolute z-2 top-25"
+          src="assets\3d\the_thinker_by_auguste_rodin.glb" 
+          auto-rotate
+          disable-zoom
+          rotation-per-second="20deg"
+          >
+        </model-viewer>
+      </div>
+    </div>
+  </section>
+
+  <section class="flex justify-center pt-20 z-4">
+    <div class="flex flex-col gap-25">
+      <div class="flex gap-10 justify-center">
+        <span class="text-2xl font-medium">
+          About Us
+        </span>
+
+        <div class="flex gap-8">
+          <div>
+            <h1 class="text-4xl font-bold">01</h1>
+            <p class="font-semibold">Lorem Ipsum Dolor Sit Amet</p>
+          </div>
+
+          <div>
+            <h1 class="text-4xl font-bold">02</h1>
+            <p class="font-semibold">Lorem Ipsum Dolor Sit Amet</p>
+          </div>
+
+          <div>
+            <h1 class="text-4xl font-bold">03</h1>
+            <p class="font-semibold">Lorem Ipsum Dolor Sit Amet</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="flex-row flex gap-15 w-282.5 justify-center">
+        <div class="flex justify-between h-100 gap-10">
+
+          <div class="justify-start flex">
+            <img 
+              alt="png1" 
+              class="h-50 w-50 rounded-2xl" 
+              src="assets/img/v2osk-1Z2niiBPg5A-unsplash.jpg">
+          </div>
+
+          <div class="flex flex-col gap-15">
+            <h2 class="text-4xl w-100 h-88.25 pl-0.5 pr-0.5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur placerat fringilla orci, at tincidunt sem elementum ac.
+            </h2>
+
+            <button class="text-start p-1 w-36.75 h-11.25">
+              Klik Disini
+            </button>
+          </div>
+
+        </div>
+
+        <div class="flex justify-end">
+          <img 
+            alt="png" 
+            class="h-50 w-50 rounded-2xl top-10 self-end mb-12" 
+            src="assets/img/adam-kool-ndN00KmbJ1c-unsplash.jpg">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="flex justify-center pt-20">
+    <div class="flex flex-row gap-5">
+
+      <div class="Kiri w-[445.38px] h-182.25 flex-col flex justify-between">
+
+        <h2 class="text-5xl">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </h2>
+
+        <div>
+
+          <p class="deskripsi flex justify-end">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Curabitur placerat fringilla orci, at tincidunt sem elementum ac.
+            Praesent nec est magna. Proin dignissim tempor blandit.
+          </p>
+
+          <button class="text-start p-1 w-36.75 h-11.25">
+              Klik Disini
+          </button>
+
+        </div>
+
+      </div>
+
+      <div class="carousel bg-amber-300 w-[445.38px] h-182.25 rounded-3xl">
+        isi
+      </div>
+
+    </div>
+  </section>
+
+  <section class="flex justify-center pt-20">
+    <div class="seluruh flex flex-col gap-15">
+      <div class="flex justify-start gap-[318.37px]">
+
+        <div>
+          <h2 class="text-5xl w-[445.38px]">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </h2>
+        </div>
+
+        <button class="text-start p-1 w-36.75 h-11.25 self-end">
+                Klik Disini
+        </button>
+
+      </div>
+
+      <div class="w-[910.75px] grid-rows-3 gap-2.5">
+
+          <div class="card1 w-[300.70px]">
+            <img>
+
+            <div class="flex-col flex gap-2.5">
+
+              <h2 class="text-[18px] font-semibold">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </h2>
+
+              <p class="deskripsi">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur placerat fringilla orci, at tincidunt sem elementum ac.
+              </p>
+
+            </div>
+
+              <p class="deskripsi">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur placerat fringilla orci, at tincidunt sem elementum ac.
+              </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
